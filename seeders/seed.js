@@ -9,8 +9,8 @@ async function seed() {
   // สร้าง user
   const user = await User.create({
     user_id: uuidv4(),
-    username: "admin",
-    email: "admin@example.com",
+    username: "PemakonKH",
+    email: "pemakon.vlr@gmail.com",
     password_hash: "hashed_password",
     created_at: new Date("2025-07-07T09:09:09.435Z")
   });
