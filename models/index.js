@@ -11,7 +11,7 @@ db.sequelize = sequelize;
 // Load models
 db.User = require('./user')(sequelize, DataTypes);
 db.Wallet = require('./wallet')(sequelize, DataTypes);
-// (เพิ่ม models อื่นๆ ได้ที่นี่)
+// (เพิ่ม models อื่นๆ ได้)
 
 // ตั้ง associate หลังจาก load model ทั้งหมดแล้ว
 Object.values(db).forEach(model => {

@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
   });
 
   Wallet.associate = (models) => {
-    Wallet.belongsTo(models.User, { foreignKey: 'user_id' });
+    Wallet.belongsTo(models.User, { foreignKey: 'user_id', as: 'User' });
   };
 
   return Wallet;

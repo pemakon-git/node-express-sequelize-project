@@ -20,7 +20,7 @@ async function seed() {
     wallet_id: uuidv4(),
     user_id: user.user_id,
     currency_code: "BTC",
-    balance: 10
+    balance: 100.13145
   });
 
   // ✅ ดึงข้อมูล user พร้อม wallet
